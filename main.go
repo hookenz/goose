@@ -9,7 +9,7 @@ import (
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Println("Usage: npm-go <package[@version]> [...]")
+		fmt.Println("Usage: goose <package[@version]> [...]")
 		return
 	}
 
